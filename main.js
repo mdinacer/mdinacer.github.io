@@ -18,6 +18,4 @@ right.addEventListener('mouseleave', () => {
     container.classList.remove('hover-right');
 });
 
-center.addEventListener('mouseenter', () => {
-    container.classList.add('hover-center');
-});
+
