@@ -107,7 +107,7 @@ html {
   .pimg2,
   .pimg3,
   .pimg4 {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 
