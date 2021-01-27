@@ -26,7 +26,6 @@ html {
 
 .pimg1 {
   background-image: url("./img/image1.jpg");
-
   min-height: 75vh;
 }
 
@@ -78,13 +77,14 @@ html {
 }
 
 .section p {
-  width: 50%;
+  font-size: 1.3rem;
+  width: 70%;
   margin: 1rem auto;
   text-align: left;
 }
 
 .section h2 {
-  width: 50%;
+  width: 70%;
   margin: 1rem auto;
   text-align: left;
 }
@@ -108,5 +108,27 @@ html {
   .pimg3,
   .pimg4 {
     background-attachment: scroll;
+  }
+}
+
+@media (max-width: 400px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4 {
+    background-attachment: scroll;
+  }
+
+  .section p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .section h2 {
+    width: 100%;
+  }
+
+  .section {
+    padding: 1rem;
   }
 }
