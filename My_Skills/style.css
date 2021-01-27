@@ -116,6 +116,7 @@ html {
   .pimg2,
   .pimg3,
   .pimg4 {
+    min-height: 40vh;
     background-attachment: scroll;
   }
 
