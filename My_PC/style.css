@@ -12,6 +12,11 @@ body {
   background: #f9f9f9;
 }
 
+.container {
+  position: relative;
+  padding: 1rem 2rem;
+  width: 80%;
+}
 a {
   color: #333;
   text-decoration: none;
