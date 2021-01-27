@@ -12,10 +12,6 @@ body {
   background: #f9f9f9;
 }
 
-body:last-child .card {
-  padding-bottom: 4rem;
-}
-
 a {
   color: #333;
   text-decoration: none;
@@ -47,13 +43,12 @@ a {
 }
 
 .main-header p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 img {
   width: 100%;
   object-fit: cover;
-  object-position: left;
 }
 
 .card {
