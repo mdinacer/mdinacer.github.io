@@ -65,7 +65,7 @@ h1 {
   display: block;
   position: absolute;
   left: 50%;
-  bottom: 10%;
+  top: 10%;
   height: 2.5rem;
   padding-top: 1.3rem;
   width: 15rem;
@@ -191,6 +191,6 @@ h1 {
 }
 @media (max-height: 700px) {
   .button {
-    top: 70%;
+    top: 5%;
   }
 }
